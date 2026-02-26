@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.7;
+  min-height: 100vh;
+  margin: 0;
+}
+
+code {
+  font-family: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
