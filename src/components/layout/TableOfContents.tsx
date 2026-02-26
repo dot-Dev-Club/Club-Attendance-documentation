@@ -19,7 +19,7 @@ const tocItems = [
 
 export default function TableOfContents() {
   return (
-    <div className="bg-slate-800 border border-slate-600 rounded-xl px-8 py-6 my-6 mb-10">
+    <div className="bg-slate-800 border border-slate-600 rounded-xl px-5 sm:px-8 py-5 sm:py-6 my-6 mb-10">
       <h3 className="text-base font-semibold mb-3">Contents</h3>
       <ol className="list-decimal pl-5 space-y-1">
         {tocItems.map((item) => (

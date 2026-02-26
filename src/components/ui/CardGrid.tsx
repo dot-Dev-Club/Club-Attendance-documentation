@@ -4,7 +4,7 @@ interface CardGridProps {
 
 export default function CardGrid({ children }: CardGridProps) {
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4 mb-4">
+    <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-4 mb-4">
       {children}
     </div>
   );

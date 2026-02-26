@@ -23,11 +23,11 @@ function App() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="lg:ml-[280px] flex-1 px-5 py-6 lg:px-14 lg:py-10 pb-20 max-w-[960px]">
-        <h1 className="text-[32px] font-extrabold text-white mb-2">
+      <main className="lg:ml-[280px] flex-1 px-4 sm:px-6 lg:px-14 pt-20 lg:pt-10 py-6 lg:py-10 pb-20 max-w-[960px] mx-auto min-w-0">
+        <h1 className="text-2xl sm:text-[32px] font-extrabold text-white mb-2">
           Club Attendance Management System
         </h1>
-        <p className="text-slate-400 text-lg mb-1">Full Project Documentation</p>
+        <p className="text-slate-400 text-base sm:text-lg mb-1">Full Project Documentation</p>
         <p className="text-[13px] text-slate-400">Last updated: February 26, 2026</p>
 
         <TableOfContents />

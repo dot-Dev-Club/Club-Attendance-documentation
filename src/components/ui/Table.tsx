@@ -12,7 +12,7 @@ export default function Table({ headers, children }: TableProps) {
             {headers.map((h) => (
               <th
                 key={h}
-                className="text-left px-3.5 py-2.5 border border-slate-600 bg-slate-700 font-semibold text-[13px] uppercase tracking-wide text-slate-400"
+                className="text-left px-2 sm:px-3.5 py-2 sm:py-2.5 border border-slate-600 bg-slate-700 font-semibold text-[11px] sm:text-[13px] uppercase tracking-wide text-slate-400"
               >
                 {h}
               </th>
